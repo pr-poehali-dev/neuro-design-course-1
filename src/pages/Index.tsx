@@ -19,35 +19,56 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
-      <section id="hero" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-primary/10 via-primary/5 to-background overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-20 left-10 w-64 h-64 bg-primary/20 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary/20 rounded-full blur-3xl"></div>
+      <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background">
+        <div className="absolute inset-0 opacity-[0.03]">
+          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary rounded-full blur-[120px]"></div>
+          <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-secondary rounded-full blur-[120px]"></div>
         </div>
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 animate-fade-in">
-          <div className="inline-block mb-6 px-6 py-2 bg-primary/10 border border-primary/20 rounded-full text-primary font-medium text-sm tracking-wide">
-            ПРЕМИУМ ОБУЧЕНИЕ
+        
+        <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent"></div>
+        <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent"></div>
+        
+        <div className="container mx-auto px-6 sm:px-8 lg:px-12 text-center relative z-10 animate-fade-in py-20">
+          <div className="inline-flex items-center gap-2 mb-8 px-6 py-2.5 bg-primary/5 border border-primary/10 rounded-full text-primary font-medium text-xs tracking-[0.2em] uppercase">
+            <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+            Эксклюзивное обучение
           </div>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary via-primary to-secondary leading-tight">
-            Нейросети для дизайнеров интерьера
+          
+          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-8 text-foreground leading-[1.1] tracking-tight elegant-text">
+            Нейросети для<br/>дизайнеров интерьера
           </h1>
-          <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-            Освойте инструменты искусственного интеллекта и выведите свои проекты на новый уровень
+          
+          <p className="text-xl sm:text-2xl md:text-3xl text-muted-foreground/80 mb-16 max-w-4xl mx-auto leading-relaxed font-light">
+            Освойте инструменты искусственного интеллекта<br className="hidden sm:block"/>и выведите свои проекты на новый уровень
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" className="text-lg px-10 py-7 shadow-2xl shadow-primary/20 hover:shadow-primary/30 transition-all" onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}>
+          
+          <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
+            <Button 
+              size="lg" 
+              className="text-base px-12 py-7 shadow-lg shadow-primary/10 hover:shadow-xl hover:shadow-primary/20 transition-all duration-300 font-medium tracking-wide" 
+              onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Записаться на курс
             </Button>
-            <Button size="lg" variant="outline" className="text-lg px-10 py-7 border-2" onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}>
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="text-base px-12 py-7 border-[1.5px] hover:bg-primary/5 transition-all duration-300 font-medium tracking-wide" 
+              onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Узнать подробнее
             </Button>
           </div>
         </div>
       </section>
 
-      <section id="about" className="py-20 sm:py-24 md:py-32 bg-background">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-12 sm:mb-16">О курсе</h2>
+      <section id="about" className="py-28 sm:py-32 md:py-40 bg-muted/30">
+        <div className="container mx-auto px-6 sm:px-8 lg:px-12">
+          <div className="text-center mb-20">
+            <div className="inline-block mb-6 h-px w-16 bg-gradient-to-r from-transparent via-primary to-transparent"></div>
+            <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 elegant-text">О курсе</h2>
+            <p className="text-xl text-muted-foreground/70 max-w-2xl mx-auto font-light">Профессиональный подход к обучению</p>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             <Card className="border border-primary/20 hover:border-primary transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10 group bg-gradient-to-br from-card to-primary/5">
               <CardHeader className="pb-8">
@@ -328,19 +349,17 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="contact" className="py-20 sm:py-24 md:py-32 bg-muted/30">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-2xl mx-auto">
-            <div className="text-center mb-12">
-              <div className="inline-block mb-4 px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary font-medium text-xs tracking-widest">
-                КОНТАКТЫ
-              </div>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">Остались вопросы?</h2>
-              <p className="text-muted-foreground text-lg">
+      <section id="contact" className="py-28 sm:py-32 md:py-40 bg-background">
+        <div className="container mx-auto px-6 sm:px-8 lg:px-12">
+          <div className="max-w-3xl mx-auto">
+            <div className="text-center mb-16">
+              <div className="inline-block mb-6 h-px w-16 bg-gradient-to-r from-transparent via-primary to-transparent"></div>
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 elegant-text">Остались вопросы?</h2>
+              <p className="text-xl text-muted-foreground/70 font-light">
                 Свяжитесь с нами, и мы ответим на все ваши вопросы о курсе
               </p>
             </div>
-            <Card className="border border-primary/10 shadow-xl">
+            <Card className="border-[0.5px] border-primary/10 shadow-2xl shadow-primary/5 bg-card/50 backdrop-blur">
               <CardContent className="pt-6">
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
@@ -392,47 +411,47 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="bg-foreground text-background py-12">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+      <footer className="bg-foreground/95 text-background py-16 border-t border-primary/10">
+        <div className="container mx-auto px-6 sm:px-8 lg:px-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
             <div>
-              <h3 className="font-bold text-xl mb-4">Курс по нейросетям</h3>
-              <p className="text-background/80">
+              <h3 className="font-bold text-2xl mb-4 elegant-text">Курс по нейросетям</h3>
+              <p className="text-background/70 font-light leading-relaxed">
                 Обучаем дизайнеров интерьера работе с искусственным интеллектом
               </p>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Навигация</h4>
-              <ul className="space-y-2 text-background/80">
+              <h4 className="font-semibold mb-4 text-lg">Навигация</h4>
+              <ul className="space-y-3 text-background/70 font-light">
                 <li>
-                  <a href="#about" className="hover:text-background transition-colors">О курсе</a>
+                  <a href="#about" className="hover:text-background transition-colors hover:translate-x-1 inline-block duration-300">О курсе</a>
                 </li>
                 <li>
-                  <a href="#program" className="hover:text-background transition-colors">Программа</a>
+                  <a href="#program" className="hover:text-background transition-colors hover:translate-x-1 inline-block duration-300">Программа</a>
                 </li>
                 <li>
-                  <a href="#pricing" className="hover:text-background transition-colors">Тарифы</a>
+                  <a href="#pricing" className="hover:text-background transition-colors hover:translate-x-1 inline-block duration-300">Тарифы</a>
                 </li>
                 <li>
-                  <a href="#contact" className="hover:text-background transition-colors">Контакты</a>
+                  <a href="#contact" className="hover:text-background transition-colors hover:translate-x-1 inline-block duration-300">Контакты</a>
                 </li>
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Контакты</h4>
-              <ul className="space-y-2 text-background/80">
-                <li className="flex items-center gap-2">
+              <h4 className="font-semibold mb-4 text-lg">Контакты</h4>
+              <ul className="space-y-3 text-background/70 font-light">
+                <li className="flex items-center gap-3 hover:text-background transition-colors">
                   <Icon name="Mail" size={18} />
                   <span>info@aicourse.ru</span>
                 </li>
-                <li className="flex items-center gap-2">
+                <li className="flex items-center gap-3 hover:text-background transition-colors">
                   <Icon name="Phone" size={18} />
                   <span>+7 (999) 123-45-67</span>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="border-t border-background/20 pt-8 text-center text-background/60 text-sm">
+          <div className="border-t border-background/10 pt-8 text-center text-background/50 text-sm font-light">
             <p>&copy; 2024 Курс по нейросетям для дизайнеров интерьера. Все права защищены.</p>
           </div>
         </div>
