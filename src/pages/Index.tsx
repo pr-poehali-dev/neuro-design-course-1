@@ -19,20 +19,26 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
-      <section id="hero" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-primary/5 via-secondary/5 to-background overflow-hidden">
-        <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
+      <section id="hero" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-primary/10 via-primary/5 to-background overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-20 left-10 w-64 h-64 bg-primary/20 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary/20 rounded-full blur-3xl"></div>
+        </div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 animate-fade-in">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
+          <div className="inline-block mb-6 px-6 py-2 bg-primary/10 border border-primary/20 rounded-full text-primary font-medium text-sm tracking-wide">
+            ПРЕМИУМ ОБУЧЕНИЕ
+          </div>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary via-primary to-secondary leading-tight">
             Нейросети для дизайнеров интерьера
           </h1>
-          <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
             Освойте инструменты искусственного интеллекта и выведите свои проекты на новый уровень
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="text-lg px-8 py-6" onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Button size="lg" className="text-lg px-10 py-7 shadow-2xl shadow-primary/20 hover:shadow-primary/30 transition-all" onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}>
               Записаться на курс
             </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 py-6" onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}>
+            <Button size="lg" variant="outline" className="text-lg px-10 py-7 border-2" onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}>
               Узнать подробнее
             </Button>
           </div>
@@ -43,60 +49,63 @@ const Index = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-12 sm:mb-16">О курсе</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-lg">
-              <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <Icon name="Brain" className="text-primary" size={24} />
+            <Card className="border border-primary/20 hover:border-primary transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10 group bg-gradient-to-br from-card to-primary/5">
+              <CardHeader className="pb-8">
+                <div className="w-16 h-16 rounded-2xl bg-primary/15 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                  <Icon name="Brain" className="text-primary" size={28} />
                 </div>
-                <CardTitle>Практические навыки</CardTitle>
-                <CardDescription>
+                <CardTitle className="text-xl mb-3">Практические навыки</CardTitle>
+                <CardDescription className="text-base leading-relaxed">
                   Научитесь применять нейросети для создания концептов, визуализаций и презентаций проектов
                 </CardDescription>
               </CardHeader>
             </Card>
 
-            <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-lg">
-              <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-secondary/10 flex items-center justify-center mb-4">
-                  <Icon name="Sparkles" className="text-secondary" size={24} />
+            <Card className="border border-secondary/20 hover:border-secondary transition-all duration-500 hover:shadow-2xl hover:shadow-secondary/10 group bg-gradient-to-br from-card to-secondary/5">
+              <CardHeader className="pb-8">
+                <div className="w-16 h-16 rounded-2xl bg-secondary/15 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                  <Icon name="Sparkles" className="text-secondary" size={28} />
                 </div>
-                <CardTitle>Актуальные инструменты</CardTitle>
-                <CardDescription>
+                <CardTitle className="text-xl mb-3">Актуальные инструменты</CardTitle>
+                <CardDescription className="text-base leading-relaxed">
                   Работа с современными ИИ-платформами: Midjourney, Stable Diffusion, ChatGPT и другими
                 </CardDescription>
               </CardHeader>
             </Card>
 
-            <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-lg">
-              <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4">
-                  <Icon name="Users" className="text-accent" size={24} />
+            <Card className="border border-primary/20 hover:border-primary transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10 group bg-gradient-to-br from-card to-primary/5">
+              <CardHeader className="pb-8">
+                <div className="w-16 h-16 rounded-2xl bg-primary/15 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                  <Icon name="Users" className="text-primary" size={28} />
                 </div>
-                <CardTitle>Поддержка экспертов</CardTitle>
-                <CardDescription>
+                <CardTitle className="text-xl mb-3">Поддержка экспертов</CardTitle>
+                <CardDescription className="text-base leading-relaxed">
                   Обратная связь от практикующих дизайнеров и доступ к сообществу единомышленников
                 </CardDescription>
               </CardHeader>
             </Card>
           </div>
 
-          <div className="mt-16 sm:mt-20 bg-muted rounded-2xl p-8 sm:p-12 md:p-16">
-            <div className="grid md:grid-cols-2 gap-8 sm:gap-12 items-center">
-              <div>
-                <img 
-                  src="https://cdn.poehali.dev/projects/49ae4c8f-51b5-4b0b-8264-5a9a82db2017/files/11d07b6b-e7cd-4c3a-ac2a-893e53fd8761.jpg" 
-                  alt="AI for Interior Design"
-                  className="rounded-xl shadow-xl w-full"
-                />
-              </div>
-              <div>
-                <h3 className="text-2xl sm:text-3xl font-bold mb-4">Почему нейросети важны сегодня?</h3>
-                <p className="text-muted-foreground mb-4">
+          <div className="mt-20 sm:mt-24 bg-gradient-to-br from-primary/5 to-muted rounded-3xl p-10 sm:p-14 md:p-20 border border-primary/10 shadow-2xl">
+            <div className="grid md:grid-cols-2 gap-10 sm:gap-16 items-center">
+              <div className="order-2 md:order-1">
+                <div className="inline-block mb-4 px-4 py-1 bg-secondary/20 border border-secondary/30 rounded-full text-secondary font-medium text-xs tracking-widest">
+                  ПРЕИМУЩЕСТВО
+                </div>
+                <h3 className="text-3xl sm:text-4xl font-bold mb-6 leading-tight">Почему нейросети важны сегодня?</h3>
+                <p className="text-muted-foreground mb-5 text-lg leading-relaxed">
                   Искусственный интеллект революционизирует индустрию дизайна интерьеров. Дизайнеры, владеющие ИИ-инструментами, работают в 3-5 раз быстрее и создают более качественные проекты.
                 </p>
-                <p className="text-muted-foreground">
+                <p className="text-muted-foreground text-lg leading-relaxed">
                   Наш курс поможет вам освоить эти технологии и оставаться конкурентоспособными в современном рынке.
                 </p>
+              </div>
+              <div className="order-1 md:order-2">
+                <img 
+                  src="https://cdn.poehali.dev/projects/49ae4c8f-51b5-4b0b-8264-5a9a82db2017/files/1fa0cb0d-7a85-466e-baa9-d47ea6832730.jpg" 
+                  alt="AI for Interior Design"
+                  className="rounded-2xl shadow-2xl w-full border border-primary/20"
+                />
               </div>
             </div>
           </div>
@@ -105,9 +114,14 @@ const Index = () => {
 
       <section id="program" className="py-20 sm:py-24 md:py-32 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-12 sm:mb-16">Программа курса</h2>
+          <div className="text-center mb-12 sm:mb-16">
+            <div className="inline-block mb-4 px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary font-medium text-xs tracking-widest">
+              ПРОГРАММА
+            </div>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">Программа курса</h2>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-5xl mx-auto">
-            <Card className="bg-card hover:shadow-xl transition-all duration-300">
+            <Card className="bg-card hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500 border border-primary/10">
               <CardHeader>
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold text-lg shrink-0">
@@ -129,7 +143,7 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            <Card className="bg-card hover:shadow-xl transition-all duration-300">
+            <Card className="bg-card hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500 border border-primary/10">
               <CardHeader>
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold text-lg shrink-0">
@@ -151,7 +165,7 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            <Card className="bg-card hover:shadow-xl transition-all duration-300">
+            <Card className="bg-card hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500 border border-primary/10">
               <CardHeader>
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold text-lg shrink-0">
@@ -173,7 +187,7 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            <Card className="bg-card hover:shadow-xl transition-all duration-300">
+            <Card className="bg-card hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500 border border-primary/10">
               <CardHeader>
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold text-lg shrink-0">
@@ -200,9 +214,14 @@ const Index = () => {
 
       <section id="pricing" className="py-20 sm:py-24 md:py-32 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-12 sm:mb-16">Тарифы</h2>
+          <div className="text-center mb-12 sm:mb-16">
+            <div className="inline-block mb-4 px-4 py-1 bg-secondary/20 border border-secondary/30 rounded-full text-secondary font-medium text-xs tracking-widest">
+              ИНВЕСТИЦИЯ В СЕБЯ
+            </div>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">Тарифы</h2>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
-            <Card className="border-2 hover:shadow-xl transition-all duration-300">
+            <Card className="border-2 border-primary/10 hover:border-primary/30 hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500">
               <CardHeader>
                 <CardTitle className="text-2xl">Базовый</CardTitle>
                 <CardDescription className="text-lg">Для начинающих</CardDescription>
@@ -233,9 +252,9 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            <Card className="border-4 border-primary relative hover:shadow-2xl transition-all duration-300 scale-105">
-              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-semibold">
-                Популярный
+            <Card className="border-4 border-primary relative hover:shadow-2xl hover:shadow-primary/20 transition-all duration-500 scale-105 bg-gradient-to-br from-primary/5 to-card">
+              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-primary to-secondary text-primary-foreground px-6 py-2 rounded-full text-sm font-bold shadow-lg">
+                ПОПУЛЯРНЫЙ
               </div>
               <CardHeader>
                 <CardTitle className="text-2xl">Стандарт</CardTitle>
@@ -271,7 +290,7 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            <Card className="border-2 hover:shadow-xl transition-all duration-300">
+            <Card className="border-2 border-primary/10 hover:border-primary/30 hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500">
               <CardHeader>
                 <CardTitle className="text-2xl">Премиум</CardTitle>
                 <CardDescription className="text-lg">Максимум возможностей</CardDescription>
@@ -312,11 +331,16 @@ const Index = () => {
       <section id="contact" className="py-20 sm:py-24 md:py-32 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-6">Остались вопросы?</h2>
-            <p className="text-center text-muted-foreground mb-12 text-lg">
-              Свяжитесь с нами, и мы ответим на все ваши вопросы о курсе
-            </p>
-            <Card>
+            <div className="text-center mb-12">
+              <div className="inline-block mb-4 px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary font-medium text-xs tracking-widest">
+                КОНТАКТЫ
+              </div>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">Остались вопросы?</h2>
+              <p className="text-muted-foreground text-lg">
+                Свяжитесь с нами, и мы ответим на все ваши вопросы о курсе
+              </p>
+            </div>
+            <Card className="border border-primary/10 shadow-xl">
               <CardContent className="pt-6">
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
