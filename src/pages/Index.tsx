@@ -38,9 +38,7 @@ const Index = () => {
             Нейросети для<br/>дизайнеров интерьера
           </h1>
           
-          <p className="text-xl sm:text-2xl md:text-3xl text-muted-foreground/80 mb-16 max-w-4xl mx-auto leading-relaxed font-light">
-            Освойте инструменты искусственного интеллекта<br className="hidden sm:block"/>и выведите свои проекты на новый уровень
-          </p>
+          <p className="text-xl sm:text-2xl md:text-3xl text-muted-foreground/80 mb-16 max-w-4xl mx-auto leading-relaxed font-light">Нейросети - уже не будущее! Нейросети - это настоящее, которое может кардинально изменить мир и нашу профессию. Мы либо внедряем технологии в работу либо остаемся "догонять уходящий поезд"</p>
           
           <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
             <Button 
