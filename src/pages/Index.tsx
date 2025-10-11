@@ -245,7 +245,7 @@ const Index = () => {
                     3
                   </div>
                   <div>
-                    <CardTitle className="mb-2">ИИ-помощники в работе</CardTitle>
+                    <CardTitle className="mb-2">Создание коллажа и визуализаций через нейросети </CardTitle>
                     <CardDescription>
                       Использование ChatGPT для составления ТЗ, описаний проектов. Автоматизация рутинных задач.
                     </CardDescription>
