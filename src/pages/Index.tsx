@@ -149,9 +149,9 @@ const Index = () => {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-2xl sm:text-3xl font-bold mb-3 elegant-text group-hover:text-primary transition-colors">Хотите повысить стоимость услуг</h3>
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-3 elegant-text group-hover:text-primary transition-colors">Больше креатива при контролируемых рисках</h3>
                   <p className="text-lg text-muted-foreground/80 leading-relaxed font-light">
-                    Предлагайте клиентам больше вариантов и быструю визуализацию идей. Уникальные ИИ-решения позволят поднять чек на 40-60%.
+                    ИИ расширяет поле поиска: редкие стилевые комбинации, экспресс-пробы отделок, смелые композиции. Вы курируете и отбираете лучшее, не закапываясь в бесконечных пробах вручную.
                   </p>
                 </div>
               </div>
