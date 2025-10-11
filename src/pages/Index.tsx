@@ -105,26 +105,89 @@ const Index = () => {
             </Card>
           </div>
 
-          <div className="mt-20 sm:mt-24 bg-gradient-to-br from-primary/5 to-muted rounded-3xl p-10 sm:p-14 md:p-20 border border-primary/10 shadow-2xl">
-            <div className="grid md:grid-cols-2 gap-10 sm:gap-16 items-center">
-              <div className="order-2 md:order-1">
-                <div className="inline-block mb-4 px-4 py-1 bg-secondary/20 border border-secondary/30 rounded-full text-secondary font-medium text-xs tracking-widest">
-                  ПРЕИМУЩЕСТВО
+          <div className="mt-20 sm:mt-24 space-y-6">
+            <div className="group relative">
+              <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-primary/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="flex gap-6 sm:gap-8 items-start p-8 rounded-2xl hover:bg-muted/30 transition-all duration-500 border border-transparent hover:border-primary/10">
+                <div className="shrink-0">
+                  <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center border border-primary/20 group-hover:scale-110 group-hover:bg-primary/20 transition-all duration-300">
+                    <span className="text-2xl font-bold text-primary elegant-text">01</span>
+                  </div>
                 </div>
-                <h3 className="text-3xl sm:text-4xl font-bold mb-6 leading-tight">Почему нейросети важны сегодня?</h3>
-                <p className="text-muted-foreground mb-5 text-lg leading-relaxed">
-                  Искусственный интеллект революционизирует индустрию дизайна интерьеров. Дизайнеры, владеющие ИИ-инструментами, работают в 3-5 раз быстрее и создают более качественные проекты.
-                </p>
-                <p className="text-muted-foreground text-lg leading-relaxed">
-                  Наш курс поможет вам освоить эти технологии и оставаться конкурентоспособными в современном рынке.
-                </p>
+                <div>
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-3 elegant-text group-hover:text-primary transition-colors">Вы начинающий дизайнер</h3>
+                  <p className="text-lg text-muted-foreground/80 leading-relaxed font-light">
+                    Получите мощные инструменты для быстрого старта карьеры. Создавайте портфолио профессионального уровня с первых дней обучения.
+                  </p>
+                </div>
               </div>
-              <div className="order-1 md:order-2">
-                <img 
-                  src="https://cdn.poehali.dev/projects/49ae4c8f-51b5-4b0b-8264-5a9a82db2017/files/1fa0cb0d-7a85-466e-baa9-d47ea6832730.jpg" 
-                  alt="AI for Interior Design"
-                  className="rounded-2xl shadow-2xl w-full border border-primary/20"
-                />
+            </div>
+
+            <div className="group relative">
+              <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-secondary/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="flex gap-6 sm:gap-8 items-start p-8 rounded-2xl hover:bg-muted/30 transition-all duration-500 border border-transparent hover:border-secondary/10">
+                <div className="shrink-0">
+                  <div className="w-14 h-14 rounded-2xl bg-secondary/10 flex items-center justify-center border border-secondary/20 group-hover:scale-110 group-hover:bg-secondary/20 transition-all duration-300">
+                    <span className="text-2xl font-bold text-secondary elegant-text">02</span>
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-3 elegant-text group-hover:text-secondary transition-colors">У вас нет времени на рутину</h3>
+                  <p className="text-lg text-muted-foreground/80 leading-relaxed font-light">
+                    Автоматизируйте рутинные задачи и сосредоточьтесь на творчестве. Нейросети возьмут на себя технические детали, освободив время для клиентов.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="group relative">
+              <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-primary/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="flex gap-6 sm:gap-8 items-start p-8 rounded-2xl hover:bg-muted/30 transition-all duration-500 border border-transparent hover:border-primary/10">
+                <div className="shrink-0">
+                  <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center border border-primary/20 group-hover:scale-110 group-hover:bg-primary/20 transition-all duration-300">
+                    <span className="text-2xl font-bold text-primary elegant-text">03</span>
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-3 elegant-text group-hover:text-primary transition-colors">Хотите повысить стоимость услуг</h3>
+                  <p className="text-lg text-muted-foreground/80 leading-relaxed font-light">
+                    Предлагайте клиентам больше вариантов и быструю визуализацию идей. Уникальные ИИ-решения позволят поднять чек на 40-60%.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="group relative">
+              <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-secondary/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="flex gap-6 sm:gap-8 items-start p-8 rounded-2xl hover:bg-muted/30 transition-all duration-500 border border-transparent hover:border-secondary/10">
+                <div className="shrink-0">
+                  <div className="w-14 h-14 rounded-2xl bg-secondary/10 flex items-center justify-center border border-secondary/20 group-hover:scale-110 group-hover:bg-secondary/20 transition-all duration-300">
+                    <span className="text-2xl font-bold text-secondary elegant-text">04</span>
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-3 elegant-text group-hover:text-secondary transition-colors">Нужно опережать конкурентов</h3>
+                  <p className="text-lg text-muted-foreground/80 leading-relaxed font-light">
+                    Пока другие только присматриваются к ИИ, вы уже будете экспертом. Станьте востребованным специалистом нового поколения.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="group relative">
+              <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-primary/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="flex gap-6 sm:gap-8 items-start p-8 rounded-2xl hover:bg-muted/30 transition-all duration-500 border border-transparent hover:border-primary/10">
+                <div className="shrink-0">
+                  <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center border border-primary/20 group-hover:scale-110 group-hover:bg-primary/20 transition-all duration-300">
+                    <span className="text-2xl font-bold text-primary elegant-text">05</span>
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-3 elegant-text group-hover:text-primary transition-colors">Планируете масштабировать бизнес</h3>
+                  <p className="text-lg text-muted-foreground/80 leading-relaxed font-light">
+                    ИИ позволяет работать с большим количеством проектов без потери качества. Масштабируйте доход, не увеличивая команду.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
