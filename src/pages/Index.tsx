@@ -111,90 +111,66 @@ const Index = () => {
               <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 elegant-text">Пять причин, почему тебе нужны нейросети</h2>
             </div>
 
-            <div className="space-y-6">
-            <div className="group relative">
-              <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-primary/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <div className="flex gap-6 sm:gap-8 items-start p-8 rounded-2xl hover:bg-muted/30 transition-all duration-500 border border-transparent hover:border-primary/10">
-                <div className="shrink-0">
-                  <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center border border-primary/20 group-hover:scale-110 group-hover:bg-primary/20 transition-all duration-300">
-                    <span className="text-2xl font-bold text-primary elegant-text">01</span>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+              <Card className="border border-primary/20 hover:border-primary transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10 group bg-gradient-to-br from-card to-primary/5">
+                <CardHeader className="pb-8">
+                  <div className="w-16 h-16 rounded-2xl bg-primary/15 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <span className="text-3xl font-bold text-primary elegant-text">01</span>
                   </div>
-                </div>
-                <div>
-                  <h3 className="text-2xl sm:text-3xl font-bold mb-3 elegant-text group-hover:text-primary transition-colors">Скорость вместо рутины</h3>
-                  <p className="text-lg text-muted-foreground/80 leading-relaxed font-light">
+                  <CardTitle className="text-xl sm:text-2xl mb-3">Скорость вместо рутины</CardTitle>
+                  <CardDescription className="text-base leading-relaxed">
                     ИИ за минуты собирает референсы, делает мудборды, предлагает варианты планировок и материалов, помогает с предварительными визуализациями. Меньше ожидания - больше времени на концепт и авторский контроль.
-                  </p>
-                </div>
-              </div>
-            </div>
+                  </CardDescription>
+                </CardHeader>
+              </Card>
 
-            <div className="group relative">
-              <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-secondary/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <div className="flex gap-6 sm:gap-8 items-start p-8 rounded-2xl hover:bg-muted/30 transition-all duration-500 border border-transparent hover:border-secondary/10">
-                <div className="shrink-0">
-                  <div className="w-14 h-14 rounded-2xl bg-secondary/10 flex items-center justify-center border border-secondary/20 group-hover:scale-110 group-hover:bg-secondary/20 transition-all duration-300">
-                    <span className="text-2xl font-bold text-secondary elegant-text">02</span>
+              <Card className="border border-secondary/20 hover:border-secondary transition-all duration-500 hover:shadow-2xl hover:shadow-secondary/10 group bg-gradient-to-br from-card to-secondary/5">
+                <CardHeader className="pb-8">
+                  <div className="w-16 h-16 rounded-2xl bg-secondary/15 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <span className="text-3xl font-bold text-secondary elegant-text">02</span>
                   </div>
-                </div>
-                <div>
-                  <h3 className="text-2xl sm:text-3xl font-bold mb-3 elegant-text group-hover:text-secondary transition-colors">Сильные презентации и меньше правок</h3>
-                  <p className="text-lg text-muted-foreground/80 leading-relaxed font-light">
+                  <CardTitle className="text-xl sm:text-2xl mb-3">Сильные презентации и меньше правок</CardTitle>
+                  <CardDescription className="text-base leading-relaxed">
                     Быстро показываете 3–5 альтернатив одной зоны, варианты света/цвета/фактур, делаете «до/после». Клиент лучше понимает идею на раннем этапе - правок и согласований становится меньше.
-                  </p>
-                </div>
-              </div>
-            </div>
+                  </CardDescription>
+                </CardHeader>
+              </Card>
 
-            <div className="group relative">
-              <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-primary/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <div className="flex gap-6 sm:gap-8 items-start p-8 rounded-2xl hover:bg-muted/30 transition-all duration-500 border border-transparent hover:border-primary/10">
-                <div className="shrink-0">
-                  <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center border border-primary/20 group-hover:scale-110 group-hover:bg-primary/20 transition-all duration-300">
-                    <span className="text-2xl font-bold text-primary elegant-text">03</span>
+              <Card className="border border-primary/20 hover:border-primary transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10 group bg-gradient-to-br from-card to-primary/5">
+                <CardHeader className="pb-8">
+                  <div className="w-16 h-16 rounded-2xl bg-primary/15 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <span className="text-3xl font-bold text-primary elegant-text">03</span>
                   </div>
-                </div>
-                <div>
-                  <h3 className="text-2xl sm:text-3xl font-bold mb-3 elegant-text group-hover:text-primary transition-colors">Больше креатива при контролируемых рисках</h3>
-                  <p className="text-lg text-muted-foreground/80 leading-relaxed font-light">
+                  <CardTitle className="text-xl sm:text-2xl mb-3">Больше креатива при контролируемых рисках</CardTitle>
+                  <CardDescription className="text-base leading-relaxed">
                     ИИ расширяет поле поиска: редкие стилевые комбинации, экспресс-пробы отделок, смелые композиции. Вы курируете и отбираете лучшее, не закапываясь в бесконечных пробах вручную.
-                  </p>
-                </div>
-              </div>
-            </div>
+                  </CardDescription>
+                </CardHeader>
+              </Card>
 
-            <div className="group relative">
-              <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-secondary/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <div className="flex gap-6 sm:gap-8 items-start p-8 rounded-2xl hover:bg-muted/30 transition-all duration-500 border border-transparent hover:border-secondary/10">
-                <div className="shrink-0">
-                  <div className="w-14 h-14 rounded-2xl bg-secondary/10 flex items-center justify-center border border-secondary/20 group-hover:scale-110 group-hover:bg-secondary/20 transition-all duration-300">
-                    <span className="text-2xl font-bold text-secondary elegant-text">04</span>
+              <Card className="border border-secondary/20 hover:border-secondary transition-all duration-500 hover:shadow-2xl hover:shadow-secondary/10 group bg-gradient-to-br from-card to-secondary/5">
+                <CardHeader className="pb-8">
+                  <div className="w-16 h-16 rounded-2xl bg-secondary/15 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <span className="text-3xl font-bold text-secondary elegant-text">04</span>
                   </div>
-                </div>
-                <div>
-                  <h3 className="text-2xl sm:text-3xl font-bold mb-3 elegant-text group-hover:text-secondary transition-colors">Больше креатива при контролируемых рисках</h3>
-                  <p className="text-lg text-muted-foreground/80 leading-relaxed font-light">
-                    ИИ расширяет поле поиска: редкие стилевые комбинации, экспресс-пробы отделок, смелые композиции. Вы курируете и отбираете лучшее, не закапываясь в бесконечных пробах вручную.
-                  </p>
-                </div>
-              </div>
-            </div>
+                  <CardTitle className="text-xl sm:text-2xl mb-3">Экономия на 3D-визуализации</CardTitle>
+                  <CardDescription className="text-base leading-relaxed">
+                    Не нужно заказывать дорогие рендеры для каждой идеи. ИИ создаёт реалистичные визуализации интерьеров за минуты, экономя бюджет на предварительных этапах проекта.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
 
-            <div className="group relative">
-              <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-primary/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <div className="flex gap-6 sm:gap-8 items-start p-8 rounded-2xl hover:bg-muted/30 transition-all duration-500 border border-transparent hover:border-primary/10">
-                <div className="shrink-0">
-                  <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center border border-primary/20 group-hover:scale-110 group-hover:bg-primary/20 transition-all duration-300">
-                    <span className="text-2xl font-bold text-primary elegant-text">05</span>
+              <Card className="border border-primary/20 hover:border-primary transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10 group bg-gradient-to-br from-card to-primary/5">
+                <CardHeader className="pb-8">
+                  <div className="w-16 h-16 rounded-2xl bg-primary/15 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <span className="text-3xl font-bold text-primary elegant-text">05</span>
                   </div>
-                </div>
-                <div>
-                  <h3 className="text-2xl sm:text-3xl font-bold mb-3 elegant-text group-hover:text-primary transition-colors">Деньги и масштабируемость</h3>
-                  <p className="text-lg text-muted-foreground/80 leading-relaxed font-light">
+                  <CardTitle className="text-xl sm:text-2xl mb-3">Деньги и масштабируемость</CardTitle>
+                  <CardDescription className="text-base leading-relaxed">
                     Автоматизация процесса визуализаций здорово экономит время. Освободившееся время можно монетизировать: брать больше проектов или поднимать чек за скорость и сервис.
-                  </p>
-                </div>
-              </div>
+                  </CardDescription>
+                </CardHeader>
+              </Card>
             </div>
           </div>
           </div>
