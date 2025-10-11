@@ -339,7 +339,7 @@ Midjourney для дизайнера интерьера - как приручи�
                 ПОПУЛЯРНЫЙ
               </div>
               <CardHeader>
-                <CardTitle className="text-2xl">Стандарт</CardTitle>
+                <CardTitle className="text-2xl">С еженедельными созвонами и мастермайд-группами</CardTitle>
                 <CardDescription className="text-lg">Оптимальный выбор</CardDescription>
               </CardHeader>
               <CardContent>
