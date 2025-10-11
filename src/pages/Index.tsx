@@ -105,7 +105,13 @@ const Index = () => {
             </Card>
           </div>
 
-          <div className="mt-20 sm:mt-24 space-y-6">
+          <div className="mt-28 sm:mt-32 md:mt-40">
+            <div className="text-center mb-16 sm:mb-20">
+              <div className="inline-block mb-6 h-px w-16 bg-gradient-to-r from-transparent via-primary to-transparent"></div>
+              <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 elegant-text">Пять причин, почему тебе нужны нейросети</h2>
+            </div>
+
+            <div className="space-y-6">
             <div className="group relative">
               <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-primary/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="flex gap-6 sm:gap-8 items-start p-8 rounded-2xl hover:bg-muted/30 transition-all duration-500 border border-transparent hover:border-primary/10">
@@ -190,6 +196,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </section>
