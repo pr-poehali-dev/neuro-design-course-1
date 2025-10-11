@@ -233,7 +233,7 @@ const Index = () => {
               <CardContent>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   <Icon name="Clock" size={16} />
-                  <span>6 занятий • 12 часов</span>
+                  <span>4 урока</span>
                 </div>
               </CardContent>
             </Card>
