@@ -286,7 +286,7 @@ Midjourney для дизайнера интерьера - как приручи�
               <CardContent>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   <Icon name="Clock" size={16} />
-                  <span>2 занятия • 4 часа</span>
+                  <span>2 урока</span>
                 </div>
               </CardContent>
             </Card>
