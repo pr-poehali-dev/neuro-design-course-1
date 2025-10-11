@@ -115,7 +115,7 @@ const Index = () => {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-2xl sm:text-3xl font-bold mb-3 elegant-text group-hover:text-primary transition-colors">Вы начинающий дизайнер</h3>
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-3 elegant-text group-hover:text-primary transition-colors">Скорость вместо рутины</h3>
                   <p className="text-lg text-muted-foreground/80 leading-relaxed font-light">
                     Получите мощные инструменты для быстрого старта карьеры. Создавайте портфолио профессионального уровня с первых дней обучения.
                   </p>
