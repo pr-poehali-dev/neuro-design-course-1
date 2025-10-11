@@ -48,7 +48,7 @@ const Index = () => {
             <Button 
               size="lg" 
               className="text-base px-12 py-7 shadow-lg shadow-primary/10 hover:shadow-xl hover:shadow-primary/20 transition-all duration-300 font-medium tracking-wide" 
-              onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => window.open('https://wa.me/79785454202?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B8%D0%B7%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B5%D0%B9%D1%80%D0%BE%D1%81%D0%B5%D1%82%D0%B8%20', '_blank')}
             >
               Записаться на курс
             </Button>
@@ -56,7 +56,7 @@ const Index = () => {
               size="lg" 
               variant="outline" 
               className="text-base px-12 py-7 border-[1.5px] hover:bg-primary/5 transition-all duration-300 font-medium tracking-wide" 
-              onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => window.open('https://wa.me/79785454202?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B8%D0%B7%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B5%D0%B9%D1%80%D0%BE%D1%81%D0%B5%D1%82%D0%B8%20', '_blank')}
             >
               Узнать подробнее
             </Button>
