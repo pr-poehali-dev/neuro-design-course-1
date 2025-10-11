@@ -344,7 +344,7 @@ Midjourney для дизайнера интерьера - как приручи�
               </CardHeader>
               <CardContent>
                 <div className="mb-6">
-                  <span className="text-4xl font-bold">50 900 ₽</span>
+                  <span className="text-4xl font-bold">50 000 ₽</span>
                 </div>
                 <ul className="space-y-3 mb-8">
                   <li className="flex items-start gap-2">
