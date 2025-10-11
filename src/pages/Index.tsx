@@ -218,7 +218,7 @@ const Index = () => {
                     2
                   </div>
                   <div>
-                    <CardTitle className="mb-2">Генерация визуализаций</CardTitle>
+                    <CardTitle className="mb-2">МОДУЛЬ 2. Практика. Как внедрить ИИ в работу</CardTitle>
                     <CardDescription>
                       Работа с Midjourney и Stable Diffusion. Создание реалистичных интерьеров, подбор стилей и материалов.
                     </CardDescription>
