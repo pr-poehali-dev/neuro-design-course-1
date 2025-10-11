@@ -108,7 +108,6 @@ const Index = () => {
           <div className="mt-28 sm:mt-32 md:mt-40">
             <div className="text-center mb-16 sm:mb-20">
               <div className="inline-block mb-6 h-px w-16 bg-gradient-to-r from-transparent via-primary to-transparent"></div>
-              <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 elegant-text">Примеры работ, созданных с помощью ИИ</h2>
               <p className="text-xl text-muted-foreground/70 font-light">Реальные интерьеры, визуализированные нейросетями</p>
             </div>
             
