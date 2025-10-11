@@ -166,9 +166,9 @@ const Index = () => {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-2xl sm:text-3xl font-bold mb-3 elegant-text group-hover:text-secondary transition-colors">Нужно опережать конкурентов</h3>
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-3 elegant-text group-hover:text-secondary transition-colors">Больше креатива при контролируемых рисках</h3>
                   <p className="text-lg text-muted-foreground/80 leading-relaxed font-light">
-                    Пока другие только присматриваются к ИИ, вы уже будете экспертом. Станьте востребованным специалистом нового поколения.
+                    ИИ расширяет поле поиска: редкие стилевые комбинации, экспресс-пробы отделок, смелые композиции. Вы курируете и отбираете лучшее, не закапываясь в бесконечных пробах вручную.
                   </p>
                 </div>
               </div>
