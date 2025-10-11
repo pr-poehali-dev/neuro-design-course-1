@@ -192,7 +192,7 @@ const Index = () => {
                     1
                   </div>
                   <div>
-                    <CardTitle className="mb-2">Основы ИИ для дизайнера интерьера</CardTitle>
+                    <CardTitle className="mb-2">МОДУЛЬ 1. Основы ИИ для дизайнера интерьера</CardTitle>
                     <CardDescription>
                       <ul className="space-y-2 mt-2">
                         <li>• Настройка VPN и платежных систем</li>
