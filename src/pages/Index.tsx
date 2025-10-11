@@ -108,6 +108,57 @@ const Index = () => {
           <div className="mt-28 sm:mt-32 md:mt-40">
             <div className="text-center mb-16 sm:mb-20">
               <div className="inline-block mb-6 h-px w-16 bg-gradient-to-r from-transparent via-primary to-transparent"></div>
+              <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 elegant-text">Примеры работ, созданных с помощью ИИ</h2>
+              <p className="text-xl text-muted-foreground/70 font-light">Реальные интерьеры, визуализированные нейросетями</p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-28">
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500">
+                <img 
+                  src="https://cdn.poehali.dev/files/3498efa6-3092-4e1c-8d5b-74dd3fa8f1ba.jpg" 
+                  alt="Современный интерьер с флоральными акцентами"
+                  className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                  <p className="text-white font-medium">Классический стиль с современными элементами</p>
+                </div>
+              </div>
+              
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500">
+                <img 
+                  src="https://cdn.poehali.dev/files/38d5c485-2f39-4b0f-abed-0ad94e51209c.jpg" 
+                  alt="Минималистичная гостиная"
+                  className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                  <p className="text-white font-medium">Мягкие формы и пастельные тона</p>
+                </div>
+              </div>
+              
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500">
+                <img 
+                  src="https://cdn.poehali.dev/files/da7b032f-3e92-480a-bced-d8808310866e.jpg" 
+                  alt="Интерьер с растительными мотивами"
+                  className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                  <p className="text-white font-medium">Природные текстуры и акценты</p>
+                </div>
+              </div>
+              
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500">
+                <img 
+                  src="https://cdn.poehali.dev/files/f3b4f249-7079-46e7-862f-90eed47b0657.jpg" 
+                  alt="Современная столовая"
+                  className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                  <p className="text-white font-medium">Контрастные цветовые решения</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="text-center mb-16 sm:mb-20">
               <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 elegant-text">Пять причин, почему тебе нужны нейросети</h2>
             </div>
 
