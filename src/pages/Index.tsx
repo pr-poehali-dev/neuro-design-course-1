@@ -192,9 +192,13 @@ const Index = () => {
                     1
                   </div>
                   <div>
-                    <CardTitle className="mb-2">Основы ИИ для дизайна</CardTitle>
+                    <CardTitle className="mb-2">Основы ИИ для дизайнера интерьера</CardTitle>
                     <CardDescription>
-                      Введение в нейросети, основные концепции, выбор инструментов. Создание первых изображений с помощью ИИ.
+                      <ul className="space-y-2 mt-2">
+                        <li>• Настройка VPN и платежных систем</li>
+                        <li>• Настройка ChatGPT для дизайнера. Как написать правильно промт (секретные настройки)</li>
+                        <li>• Создание личного GPT ассистента. Gpt Sora - визуализация за 5 минут</li>
+                      </ul>
                     </CardDescription>
                   </div>
                 </div>
