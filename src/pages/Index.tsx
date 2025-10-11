@@ -310,7 +310,7 @@ Midjourney для дизайнера интерьера - как приручи�
               </CardHeader>
               <CardContent>
                 <div className="mb-6">
-                  <span className="text-4xl font-bold">29 900 ₽</span>
+                  <span className="text-4xl font-bold">40 000 ₽</span>
                 </div>
                 <ul className="space-y-3 mb-8">
                   <li className="flex items-start gap-2">
@@ -323,7 +323,7 @@ Midjourney для дизайнера интерьера - как приручи�
                   </li>
                   <li className="flex items-start gap-2">
                     <Icon name="Check" className="text-primary shrink-0 mt-1" size={20} />
-                    <span>Чат с участниками</span>
+                    <span>Чат с куратором, участниками и обратной связью</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Icon name="Check" className="text-primary shrink-0 mt-1" size={20} />
@@ -344,7 +344,7 @@ Midjourney для дизайнера интерьера - как приручи�
               </CardHeader>
               <CardContent>
                 <div className="mb-6">
-                  <span className="text-4xl font-bold">49 900 ₽</span>
+                  <span className="text-4xl font-bold">50 900 ₽</span>
                 </div>
                 <ul className="space-y-3 mb-8">
                   <li className="flex items-start gap-2">
