@@ -245,7 +245,7 @@ const Index = () => {
                     3
                   </div>
                   <div>
-                    <CardTitle className="mb-2">Создание коллажа и визуализаций через нейросети </CardTitle>
+                    <CardTitle className="mb-2">МОДУЛЬ 3. Создание коллажа и визуализаций через нейросети</CardTitle>
                     <CardDescription>
                       <p className="mb-3">Создание коллажа через нейросеть Dzinе. Midjourney для дизайнера интерьера - как приручить дракона.</p>
                       
