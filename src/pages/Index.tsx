@@ -98,9 +98,7 @@ const Index = () => {
                   <Icon name="Sparkles" className="text-secondary" size={28} />
                 </div>
                 <CardTitle className="text-xl mb-3">Актуальные инструменты</CardTitle>
-                <CardDescription className="text-base leading-relaxed">
-                  Работа с современными ИИ-платформами: Midjourney, Stable Diffusion, ChatGPT и другими
-                </CardDescription>
+                <CardDescription className="text-base leading-relaxed">Работа с современными ИИ-платформами: Midjourney, PromeAI, ChatGPT и другими</CardDescription>
               </CardHeader>
             </Card>
 
