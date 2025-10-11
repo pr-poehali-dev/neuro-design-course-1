@@ -302,7 +302,7 @@ Midjourney для дизайнера интерьера - как приручи�
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">Тарифы</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-4xl mx-auto">
             <Card className="border-2 border-primary/10 hover:border-primary/30 hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500">
               <CardHeader>
                 <CardTitle className="text-2xl">Базовый</CardTitle>
@@ -369,41 +369,6 @@ Midjourney для дизайнера интерьера - как приручи�
                   </li>
                 </ul>
                 <Button className="w-full">Выбрать тариф</Button>
-              </CardContent>
-            </Card>
-
-            <Card className="border-2 border-primary/10 hover:border-primary/30 hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500">
-              <CardHeader>
-                <CardTitle className="text-2xl">Премиум</CardTitle>
-                <CardDescription className="text-lg">Максимум возможностей</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="mb-6">
-                  <span className="text-4xl font-bold">79 900 ₽</span>
-                </div>
-                <ul className="space-y-3 mb-8">
-                  <li className="flex items-start gap-2">
-                    <Icon name="Check" className="text-primary shrink-0 mt-1" size={20} />
-                    <span>Все из тарифа "Стандарт"</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Icon name="Check" className="text-primary shrink-0 mt-1" size={20} />
-                    <span>Индивидуальные консультации</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Icon name="Check" className="text-primary shrink-0 mt-1" size={20} />
-                    <span>Разбор вашего портфолио</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Icon name="Check" className="text-primary shrink-0 mt-1" size={20} />
-                    <span>Доступ к закрытым мастер-классам</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Icon name="Check" className="text-primary shrink-0 mt-1" size={20} />
-                    <span>Пожизненный доступ к материалам</span>
-                  </li>
-                </ul>
-                <Button className="w-full" variant="outline">Выбрать тариф</Button>
               </CardContent>
             </Card>
           </div>
