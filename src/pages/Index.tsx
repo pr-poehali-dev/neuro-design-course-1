@@ -14,7 +14,11 @@ const Index = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
+    const subject = encodeURIComponent("Вопрос по курсу нейросетей");
+    const body = encodeURIComponent(
+      `Имя: ${formData.name}\nEmail: ${formData.email}\n\nСообщение:\n${formData.message}`
+    );
+    window.location.href = `mailto:acadamy_d_r_mt@mail.ru?subject=${subject}&body=${body}`;
   };
 
   return (
