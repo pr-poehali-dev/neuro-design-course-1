@@ -132,9 +132,9 @@ const Index = () => {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-2xl sm:text-3xl font-bold mb-3 elegant-text group-hover:text-secondary transition-colors">У вас нет времени на рутину</h3>
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-3 elegant-text group-hover:text-secondary transition-colors">Сильные презентации и меньше правок</h3>
                   <p className="text-lg text-muted-foreground/80 leading-relaxed font-light">
-                    Автоматизируйте рутинные задачи и сосредоточьтесь на творчестве. Нейросети возьмут на себя технические детали, освободив время для клиентов.
+                    Быстро показываете 3–5 альтернатив одной зоны, варианты света/цвета/фактур, делаете «до/после». Клиент лучше понимает идею на раннем этапе - правок и согласований становится меньше.
                   </p>
                 </div>
               </div>
