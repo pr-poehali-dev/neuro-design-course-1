@@ -37,9 +37,9 @@ const Index = () => {
             <img 
               src="https://cdn.poehali.dev/files/2b30092c-51c2-4e87-97a3-a8e302e10882.png" 
               alt="Академия Дизайна Марианны Турбиной"
-              className="w-48 sm:w-64 md:w-80 mb-4 animate-fade-in"
+              className="w-32 sm:w-40 md:w-48 mb-3 animate-fade-in"
             />
-            <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-foreground/80 tracking-wide">
+            <h2 className="text-sm sm:text-base md:text-lg font-semibold text-foreground/80 tracking-wide">
               Академия Дизайна Марианны Турбиной
             </h2>
           </div>
