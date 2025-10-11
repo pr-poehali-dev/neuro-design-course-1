@@ -537,7 +537,7 @@ const Index = () => {
               <ul className="space-y-3 text-background/70 font-light">
                 <li className="flex items-center gap-3 hover:text-background transition-colors">
                   <Icon name="Mail" size={18} />
-                  <span>info@aicourse.ru</span>
+                  <span>acadamy_d_r_mt@mail.ru</span>
                 </li>
                 <li className="flex items-center gap-3 hover:text-background transition-colors">
                   <Icon name="Phone" size={18} />
