@@ -183,9 +183,9 @@ const Index = () => {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-2xl sm:text-3xl font-bold mb-3 elegant-text group-hover:text-primary transition-colors">Планируете масштабировать бизнес</h3>
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-3 elegant-text group-hover:text-primary transition-colors">Деньги и масштабируемость</h3>
                   <p className="text-lg text-muted-foreground/80 leading-relaxed font-light">
-                    ИИ позволяет работать с большим количеством проектов без потери качества. Масштабируйте доход, не увеличивая команду.
+                    Автоматизация процесса визуализаций здорово экономит время. Освободившееся время можно монетизировать: брать больше проектов или поднимать чек за скорость и сервис.
                   </p>
                 </div>
               </div>
