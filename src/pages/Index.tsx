@@ -306,7 +306,7 @@ Midjourney для дизайнера интерьера - как приручи�
             <Card className="border-2 border-primary/10 hover:border-primary/30 hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500">
               <CardHeader>
                 <CardTitle className="text-2xl">Базовый</CardTitle>
-                <CardDescription className="text-lg">Для начинающих</CardDescription>
+                <CardDescription className="text-lg">Без созвонов</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="mb-6">
