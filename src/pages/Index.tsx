@@ -541,7 +541,7 @@ const Index = () => {
                 </li>
                 <li className="flex items-center gap-3 hover:text-background transition-colors">
                   <Icon name="Phone" size={18} />
-                  <span>+7 (999) 123-45-67</span>
+                  <span>+7 978 545-42-02</span>
                 </li>
               </ul>
             </div>
