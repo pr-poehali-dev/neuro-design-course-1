@@ -33,6 +33,17 @@ const Index = () => {
         <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent"></div>
         
         <div className="container mx-auto px-6 sm:px-8 lg:px-12 text-center relative z-10 animate-fade-in py-20">
+          <div className="flex flex-col items-center mb-8">
+            <img 
+              src="https://cdn.poehali.dev/files/2b30092c-51c2-4e87-97a3-a8e302e10882.png" 
+              alt="Академия Дизайна Марианны Турбиной"
+              className="w-48 sm:w-64 md:w-80 mb-4 animate-fade-in"
+            />
+            <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-foreground/80 tracking-wide">
+              Академия Дизайна Марианны Турбиной
+            </h2>
+          </div>
+          
           <div className="inline-flex items-center gap-2 mb-8 px-6 py-2.5 bg-primary/5 border border-primary/10 rounded-full text-primary font-medium text-xs tracking-[0.2em] uppercase">
             <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
             Эксклюзивное обучение
