@@ -383,6 +383,10 @@ const Index = () => {
                   </li>
                   <li className="flex items-start gap-2">
                     <Icon name="Check" className="text-primary shrink-0 mt-1" size={20} />
+                    <span>Проверка домашних заданий</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <Icon name="Check" className="text-primary shrink-0 mt-1" size={20} />
                     <span>Сертификат об окончании</span>
                   </li>
                 </ul>
