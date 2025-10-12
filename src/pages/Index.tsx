@@ -362,7 +362,7 @@ const Index = () => {
             <Card className="border-2 border-primary/10 hover:border-primary/30 hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500">
               <CardHeader>
                 <CardTitle className="text-2xl">Базовый</CardTitle>
-                <CardDescription className="text-lg">Без созвонов</CardDescription>
+                <CardDescription className="text-lg">Без еженедельных созвонов и мастермайнд-группы </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="mb-6">
