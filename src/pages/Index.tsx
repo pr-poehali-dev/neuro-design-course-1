@@ -419,7 +419,7 @@ const Index = () => {
                   </li>
                   <li className="flex items-start gap-2">
                     <Icon name="Check" className="text-primary shrink-0 mt-1" size={20} />
-                    <span>Еженедельные онлайн-встречи</span>
+                    <span>2 онлайн-встречи</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Icon name="Check" className="text-primary shrink-0 mt-1" size={20} />
@@ -431,7 +431,7 @@ const Index = () => {
                   </li>
                   <li className="flex items-start gap-2">
                     <Icon name="Check" className="text-primary shrink-0 mt-1" size={20} />
-                    <span>3 месяца поддержки после курса</span>
+                    <span>2 месяца поддержки после курса</span>
                   </li>
                 </ul>
                 <Button 
