@@ -405,7 +405,7 @@ const Index = () => {
                 ПОПУЛЯРНЫЙ
               </div>
               <CardHeader>
-                <CardTitle className="text-2xl">С еженедельными созвонами и мастермайд-группами</CardTitle>
+                <CardTitle className="text-2xl">С двумя созвонами и мастермайд-группами</CardTitle>
                 <CardDescription className="text-lg">Оптимальный выбор</CardDescription>
               </CardHeader>
               <CardContent>
