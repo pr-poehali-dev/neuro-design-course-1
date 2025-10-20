@@ -366,7 +366,7 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <div className="mb-6">
-                  <span className="text-4xl font-bold">40 000 ₽</span>
+                  <span className="text-4xl font-bold">25 000 ₽</span>
                 </div>
                 <ul className="space-y-3 mb-8">
                   <li className="flex items-start gap-2">
