@@ -412,7 +412,7 @@ const Index = () => {
                 <Button 
                   className="w-full mt-4" 
                   variant="outline"
-                  onClick={() => window.open('https://edu.academy-design-mt.ru/pl/lite/widget/script?id=1502708', '_blank')}
+                  onClick={() => window.open('https://edu.academy-design-mt.ru/pl/lite/widget/script?id=150271', '_blank')}
                 >
                   Перейти к оплате
                 </Button>
