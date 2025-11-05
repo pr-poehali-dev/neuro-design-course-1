@@ -409,6 +409,13 @@ const Index = () => {
                   </li>
                 </ul>
                 <div id="widget-basic-plan"></div>
+                <Button 
+                  className="w-full mt-4" 
+                  variant="outline"
+                  onClick={() => window.open('https://edu.academy-design-mt.ru/pl/lite/widget/script?id=1502708', '_blank')}
+                >
+                  Перейти к оплате
+                </Button>
               </CardContent>
             </Card>
 
